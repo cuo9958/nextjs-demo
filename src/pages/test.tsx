@@ -1,10 +1,12 @@
 import Button from "@/components/button";
 import { useEffect, useState } from "react";
+import { getWinWidth } from "@/service/win";
 
 export default function Test() {
   //页面加载状态
   const [pageshow, setPageShow] = useState(false);
   const [count, setCount] = useState(0);
+  const wid = getWinWidth();
 
   useEffect(() => {
     //设置页面加载完成
