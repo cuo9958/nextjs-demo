@@ -1,0 +1,12 @@
+{
+    "apps": [
+        {
+            "name": "nextjs-demo@8082",
+            "script": "index.js",
+            "args": [],
+            "env": {
+                "PORT": "8082"
+            }
+        }
+    ]
+}

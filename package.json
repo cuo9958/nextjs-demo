@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node index.js",
     "build": "next build",
-    "start": "next start",
+    "start": "cross-env NODE_ENV=production node index.js",
     "lint": "next lint"
   },
   "dependencies": {
@@ -13,6 +13,7 @@
     "@types/node": "18.14.0",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
+    "cross-env": "^7.0.3",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
