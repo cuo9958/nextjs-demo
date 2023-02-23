@@ -1,5 +1,6 @@
 const express = require("express");
 const next = require("next");
+require("./task");
 
 const server = express();
 const port = parseInt(process.env.PORT, 10) || 8082;
